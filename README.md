@@ -54,7 +54,8 @@ b.  KCL:
 
  <img width="1188" height="733" alt="KCL" src="https://github.com/user-attachments/assets/55487502-1b32-4190-b74f-e00263474b85" />
 
- <img width="1188" height="733" alt="KCL" src="https://github.com/user-attachments/assets/60cbc773-61c6-44c9-8e2d-776c3cb47d32" />
+ ![Uploading KCL circ diag.png…]()
+
 
 
 Calculation:
