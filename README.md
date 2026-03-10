@@ -44,24 +44,91 @@ CIRCUIT DIAGRAM:
 
 
 a.   KVL:
-<img width="1357" height="576" alt="image" src="https://github.com/user-attachments/assets/19fc77dc-77ac-4195-9c97-37a695419983" />
+<img width="1379" height="741" alt="Screenshot 2025-11-17 150938" src="https://github.com/user-attachments/assets/43736175-ce8d-439b-8ac7-e684158c02f3" />
+![502149970-bf595729-60c5-4d3e-aeec-f037a8ba2e50](https://github.com/user-attachments/assets/7d3177be-d59a-42fd-9f34-d058a20390ff)
 
-![WhatsApp Image 2026-02-20 at 9 07 29 AM](https://github.com/user-attachments/assets/1e19923f-b7ee-4d98-a740-c656f2f59238)
+
+
 b.  KCL:
-<img width="959" height="513" alt="image" src="https://github.com/user-attachments/assets/e8c5f938-3945-468c-a4dd-fb3d82e8be29" />
+ <img width="1383" height="652" alt="Screenshot 2025-11-17 151007" src="https://github.com/user-attachments/assets/da7eac48-dbd8-4865-a3bd-0aa0fdf88747" />
+ ![502150355-1ff46fc5-67a5-49f7-acb7-3fe839b60039](https://github.com/user-attachments/assets/ef618482-449e-4f4a-a22e-18fb97c1d958)
 
-![WhatsApp Image 2026-02-20 at 9 04 09 AM](https://github.com/user-attachments/assets/5141fc03-0236-44d1-bce4-1b69890c1044)
+
 Calculation:
+
 a.   KVL:
- ![WhatsApp Image 2026-02-20 at 9 03 49 AM](https://github.com/user-attachments/assets/7c022829-af49-4511-8608-b1c362401f98)
+
+ $$V=V_1+V_2+V_3$$
+
+ $$100=IR_1+IR_2+IR_3$$
+
+ $$R_{eq}=R_1+R_2+R_3$$
+
+ $$R_{eq}=180\Omega$$
+
+ $$I=\frac{V}{R_{eq}}=\frac{100}{180}=0.556V$$
+
+ $$V_1=V_{30\Omega}=IR_1=0.556\times 30=16.68V$$
+
+  $$V_2=V_{50\Omega}=IR_2=0.556\times 50=27.8V$$
+
+   $$V_3=V_{100\Omega}=IR_3=0.556\times 100=55.6V$$
+
+
+
 b.  KCL:
-![WhatsApp Image 2026-02-20 at 9 04 25 AM](https://github.com/user-attachments/assets/6b9ad7cc-80ed-4b75-9b7d-ba24c9e9394d)
+
+$$i_{30\Omega}=I_{50\Omega}+I_{100\Omega}$$
+
+$$i_{30\Omega}=\frac{100-V}{30}$$
+
+$$I_{50\Omega}=\frac{V}{50}$$
+
+$$I_{100\Omega}=\frac{V}{50}$$
+
+$$\frac{100-V}{30}=\frac{V}{50}+\frac{V}{100}$$
+
+$$\frac{100-V}{30}=\frac{2V}{100}+\frac{V}{100}$$
+
+$$\frac{100-V}{30}=\frac{2V+V}{100}$$
+
+$$\frac{100-V}{3}=\frac{3V}{10}$$
+
+$$1000-10V=9V$$
+
+$$19V=1000$$
+
+$$V=\frac{1000}{19}=52.63V$$
+
+$$i_{30\Omega}=\frac{100-V}{30}==\frac{100-52.63}{30}=1.58A$$
+
+$$I_{50\Omega}=\frac{V}{50}=\frac{52.63}{50}=1.05A$$
+
+$$I_{100\Omega}=\frac{V}{50}=\frac{52.63}{100}=0.53A$$
+
+
+
+
 Tabulation:
 
 a.   KVL:
- ![WhatsApp Image 2026-02-20 at 9 04 48 AM](https://github.com/user-attachments/assets/e2e2f273-5774-4c1f-a0fc-94d8b05a8f26)
+
+|KVL|Source(V)|$$V_{30\Omega}$$|$$V_{50\Omega}$$|$$V_{100\Omega}$$|$$V_{30\Omega}+V_{50\Omega}+V_{100\Omega}$$|
+ |:-----:|:-----:|:------------:|:--------------:|:---------------:|:-----------------------------------------:|
+ |Theoretical|100|16.68V|27.8V|55.6V|100.05V|
+ |partical|100|16.7V|27.8V|55.6V|100.1V|
+
+ 
+
+
 b.  KCL:
-![WhatsApp Image 2026-02-20 at 9 04 59 AM](https://github.com/user-attachments/assets/98722323-9515-44e4-97a5-7e6158f35847)
+
+|KCL|$$I_{30\Omega}$$|$$I_{50\Omega}$$|$$I_{100\Omega}$$|$$V_{A}$$|
+ |:-----:|:-----:|:------------:|:--------------:|:---------------:|
+ |Theoretical|1.58A|1.05A|0.53A|52.63V|
+ |partical|1.58A|1.05A|0.53V|52.6V|
+
+
 
 RESULT:
 
